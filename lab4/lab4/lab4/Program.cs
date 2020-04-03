@@ -14,7 +14,7 @@ namespace lab4
         public interface IAbstractApp
         {
             /// <summary>
-            /// Функция для возврата настроек нужных определенному типу открываемых файлов
+            /// Функция для возврата настроек нужных определенной стране
             /// </summary>
             /// <returns>изменяемые настройки</returns>
             IAbstractSettings GetSettings();
